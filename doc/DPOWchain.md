@@ -73,6 +73,7 @@ go to
 cd ~/dexkomodo/src/
 sudo gcc -o /usr/bin/notarizer cc/dapps/notarizer.c -lm
 cp cc/dapps/pubkeys .
+cp pubkeys ~/komodo/src/    (copy the pubkeys file to your main komodo/src directory from where you generally launch all smartchains including KMD)
 ```
 
 wait 2 minutes after that run
