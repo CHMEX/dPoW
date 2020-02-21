@@ -72,6 +72,7 @@ go to
 ```bash
 cd ~/dexkomodo/src/
 sudo gcc -o /usr/bin/notarizer cc/dapps/notarizer.c -lm
+cp cc/dapps/pubkeys .
 ```
 
 wait 2 minutes after that run
