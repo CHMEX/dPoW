@@ -31,7 +31,7 @@ OR
 ```bash
 echo 'blocknotify=notarizer BTC bitcoin-cli %s' >> ~/.bitcoin/bitcoin.conf
 echo 'blocknotify=notarizer DEX "" %s' >> ~/.komodo/DEX/DEX.conf
-echo 'blocknotify=notarizer KMD"" %s' >> ~/.komodo/komodo.conf
+echo 'blocknotify=notarizer KMD "" %s' >> ~/.komodo/komodo.conf
 ```
 stop the affected chains
 
